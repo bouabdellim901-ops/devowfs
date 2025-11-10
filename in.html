@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulaire inscription</h1>
+    <label for="name">Nom</label>
+    <input id="name" name="name" type="text" required placeholder="Saisir votre nom">
+    <label for="email">Email:</label>
+    <input  id="email" type="email" name="email" placeholder="entre votre email ">
+    <label for="password">Mot de passe</label>
+      <input id="password" name="password" type="password" required minlength="6" placeholder="Mot de passe">
+      <button type="button" class="toggle-btn" onclick="togglePwd()" aria-label="Afficher/masquer mot de passe" style="position:absolute; right:6px; top:6px;"> Afficher
+      </button>
+    <button type="submit">Se connecter</button>
+    </form>
+</body>
+</html>
